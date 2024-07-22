@@ -1,0 +1,110 @@
+:root {
+    --primary-color: white;
+    --secondary-color: rgb(255, 0, 0);
+    --text-color: grey;
+}
+
+body {
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-right: 100px;
+    background-color: var(--secondary-color);
+    background-image: url('/images/img.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.logo-img {
+    height: 30px;
+    width: 50px;
+    color: var(--primary-color);
+    transform: translateY(-60px);
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+    margin: 0.6rem 1rem;
+}
+
+.navigation .link {
+    color: var(--primary-color);
+}
+
+.navigation .link-active {
+    text-decoration: none;
+}
+
+.navigation .link-actived {
+    color: black;
+    border: 1px hidden;
+    border-radius: 1rem;
+}
+
+.nav-brand {
+    color: black;
+}
+
+.nav-bar {
+    text-align: right;
+    color: black;
+}
+
+.content {
+    color: black;
+    color: #fbfcfd;
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-40%);
+    z-index: 2;
+    margin-left: 50px;
+}
+
+.name {
+    font-size: 50px;
+}
+
+.para {
+    font-weight: bold;
+}
+
+.d1 {
+    padding: 10px 25px;
+    background: transparent;
+    border: 1px solid #fff;
+    outline: none;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.d2 {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    padding: 10px 25px;
+    border: 1px solid #fff;
+    outline: none;
+    cursor: pointer;
+}
+
+hr {
+    color: white;
+    font-size: 5px;
+}
+
+img {
+    height: 500px;
+    width: 400px;
+    position: absolute;
+    left: 60%;
+}
